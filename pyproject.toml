@@ -12,6 +12,7 @@ dev = [
   "ruff>=0.9.10",
   "types-lxml>=2024.9.16",
   "types-polib>=1.2.0.20240811",
+  "zensical>=0.0.2",
 ]
 
 [tool.uv.workspace]
