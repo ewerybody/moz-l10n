@@ -1,4 +1,5 @@
 """
-.. include:: ../../README.md
-   :start-line: 2
+# The `moz-l10n` Python API
+
+Welcome
 """

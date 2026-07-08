@@ -7,7 +7,7 @@ description = "Mozilla tools for localization"
 dev = [
   "jsonschema>=4.23.0",
   "mypy>=1.11.2",
-  "pdoc>=15.0.4",
+  "pydoc-markdown>=4.8.2",
   "pytest>=8.3.3",
   "ruff>=0.9.10",
   "types-lxml>=2024.9.16",
@@ -42,3 +42,13 @@ select = [
 ignore = [
   "E501", # Line too long
 ]
+
+[[tool.pydoc-markdown.loaders]]
+type = "python"
+search_path = [ "python" ]
+packages = [ "moz.l10n" ]
+
+[tool.pydoc-markdown.renderer]
+type = "mkdocs"
+output_directory = "api-docs"
+content_directory_name = "docs"
