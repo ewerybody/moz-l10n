@@ -2,6 +2,7 @@
 coverage/
 dist/
 node_modules/
+__pycache__/
 
 api-docs/site/
 api-docs/docs/
