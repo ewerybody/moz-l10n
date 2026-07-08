@@ -9,7 +9,11 @@
     "build": "tsc -p js",
     "lint": "eslint --config js/eslint.config.mjs js/src/",
     "prettier": "prettier --write js",
-    "test": "vitest run --dom js/src/"
+    "test": "vitest run --dom js/src/",
+    "docgenpy": "uv run python api-docs/generate.py",
+    "docgenjs": "typedoc --options api-docs/typedoc.json",
+    "docgen": "npm run docgenpy && npm run docgenjs && uv run zensical build --config-file api-docs/zensical.toml",
+    "docgen:serve": "uv run zensical serve --config-file api-docs/zensical.toml"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -19,6 +23,8 @@
     "eslint-config-prettier": "^10.0.1",
     "happy-dom": "^20.0.0",
     "prettier": "^3.4.2",
+    "typedoc": "^0.28.20",
+    "typedoc-plugin-markdown": "^4.12.0",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.22.0",
     "vitest": "^4.0.18"

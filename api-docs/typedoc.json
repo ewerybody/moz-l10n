@@ -1,0 +1,16 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "plugin": ["typedoc-plugin-markdown"],
+  "entryPoints": ["../js/src/index.ts"],
+  "tsconfig": "../js/tsconfig.json",
+  "readme": "../js/README.md",
+  "out": "docs/js",
+  "githubPages": false,
+  "hideGenerator": true,
+  "entryFileName": "index",
+  "hidePageHeader": true,
+  "hideBreadcrumbs": true,
+  "useCodeBlocks": true,
+  "expandObjects": true,
+  "sourceLinkTemplate": "https://github.com/mozilla/moz-l10n/blob/main/{path}#L{line}"
+}
