@@ -2,4 +2,8 @@
 coverage/
 dist/
 node_modules/
-/api-docs/site
+
+api-docs/site/
+api-docs/docs/
+api-docs/mkdocs.yml
+api-docs/.generated-files.txt
