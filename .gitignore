@@ -5,6 +5,8 @@ node_modules/
 __pycache__/
 
 api-docs/site/
-api-docs/docs/
+api-docs/docs/js
+api-docs/docs/python
+api-docs/docs/index.md
 api-docs/mkdocs.yml
 api-docs/.generated-files.txt
