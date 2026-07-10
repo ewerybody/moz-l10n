@@ -3,7 +3,7 @@
 This is a library of Python tools and utilities for working with localization files,
 primarily built for internal use at Mozilla.
 
-The core idea here is to establish [Message](./moz/l10n/message.py) and [Resource](./moz/l10n/resource.py)
+The core idea here is to establish [Message](./moz/l10n/model.py) and [Resource](./moz/l10n/model.py)
 as format-independent representations of localizable and localized messages and resources,
 so that operations like linting and transforms can be applied to them.
 
