@@ -10,3 +10,4 @@ api-docs/docs/python
 api-docs/docs/index.md
 api-docs/mkdocs.yml
 api-docs/.generated-files.txt
+!api-docs/overrides/.icons
