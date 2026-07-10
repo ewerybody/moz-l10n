@@ -26,7 +26,8 @@ def inc_parse(source: str | bytes) -> Resource[Message]:
     """
     Parse a .inc file into a message resource.
 
-    Directives such as `#filter` and `#unfilter` will be stored as standalone comments.
+    Directives such as [`#filter` and `#unfilter`](https://firefox-source-docs.mozilla.org/build/buildsystem/preprocessor.html#filter-unfilter)
+    will be stored as standalone comments.
 
     The parsed resource will not include any metadata.
     """
